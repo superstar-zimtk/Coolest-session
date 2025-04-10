@@ -28,8 +28,8 @@ function randomMegaId(length = 6, numberLength = 4) {
 async function uploadCredsToMega(credsPath) {
     try {
         const storage = await new Storage({
-            email: 'nexusxd.bot@gmail.com', // Your Mega A/c Email Here
-            password: 'malvin266' // Your Mega A/c Password Here
+            email: 'zimtk4@gmail.com', // Your Mega A/c Email Here
+            password: 'takumsax2007@$' // Your Mega A/c Password Here
         }).ready;
         console.log('Mega storage initialized.');
 
@@ -150,7 +150,7 @@ router.get('/', async (req, res) => {
         }
     }
 
-    await MALVIN_PAIR_CODE();
+    await TAKLEX_PAIR_CODE();
 });
 
 module.exports = router;
